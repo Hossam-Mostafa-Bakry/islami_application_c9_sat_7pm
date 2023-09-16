@@ -38,14 +38,7 @@ class _HomeLayoutState extends State<HomeLayout> {
       child: Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
-          backgroundColor: Colors.transparent,
-          elevation: 0,
-          centerTitle: true,
-          title: Text(
-            "Islami",
-            style: TextStyle(
-                fontSize: 30, fontWeight: FontWeight.bold, color: Colors.black),
-          ),
+          title: Text("Islami"),
         ),
         body: screens[selectedIndex],
         bottomNavigationBar: BottomNavigationBar(
